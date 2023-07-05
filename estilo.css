@@ -1,0 +1,53 @@
+body {
+  background-color: #d3d1d1;
+  color: #000000;
+  transition: all 0.2s;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 40px;
+}
+
+th {
+  background-color: #024564;
+  color: rgb(253, 253, 253);
+}
+
+tr:nth-child(even) {
+  background-color: #999999;
+}
+
+p {
+  line-height: 1.5; /* Aumenta el espaciado entre líneas */
+  margin-bottom: 10px; /* Añade un espacio entre párrafos */
+}
